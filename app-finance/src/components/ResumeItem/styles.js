@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -24,4 +23,23 @@ export const Container = styled.div`
   svg{
     display: none;
   }
+`
+export const Header = styled.header`
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+gap: 10px;
+
+svg{
+  width: 25px;
+  height: 25px;
+}
+`
+export const HeaderTitle = styled.p`
+font-size: 20px;
+`
+export const total = styled.span`
+font-size: 30px;
+font-weight: bold;
 `

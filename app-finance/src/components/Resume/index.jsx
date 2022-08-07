@@ -6,6 +6,8 @@ const Resume = () => {
       <>
         <C.Container>
               <ResumeItem/>
+              <ResumeItem/>
+              <ResumeItem/>
         </C.Container>
       </>
   )
