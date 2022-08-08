@@ -38,8 +38,10 @@ svg{
 `
 export const HeaderTitle = styled.p`
 font-size: 20px;
+font-weight: bold;
+font-family: sans-serif;
 `
-export const total = styled.span`
+export const Total = styled.span`
 font-size: 30px;
 font-weight: bold;
 `
