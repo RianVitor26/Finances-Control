@@ -1,6 +1,6 @@
 import React from 'react'
 import * as C from './styles'
-const ResumeItem = ({ title, value}) => {
+const ResumeItem = ({ title, value }) => {
   return (
     <C.Container>
       <C.Header>
