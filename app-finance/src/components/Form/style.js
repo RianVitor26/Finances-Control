@@ -11,17 +11,32 @@ display: flex;
 justify-content: space-around;
 padding: 15px 0px;
 gap: 10px;
+
+@media (max-width: 750px){
+    display: grid;
+}
 `
 
 export const Label = styled.label`
 
 `
+export const InputContent = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+`
 export const Input = styled.input`
-
+outline: none;
+border-radius: 5px;
+padding: 5px 10px;
+font-size: 15px;
+border: 1px solid #ccc;
+margin-right: 5px;
 `
 export const RadioGroup = styled.div`
 display: flex;
 align-items: center;
+
 input{
     margin-left: 20px;
     accent-color: black;
