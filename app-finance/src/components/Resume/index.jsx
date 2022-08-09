@@ -2,13 +2,13 @@ import React from 'react'
 import * as C from './styles'
 import ResumeItem from '../ResumeItem'
 
-const Resume = () => {
+const Resume = ({ income, expense, total }) => {
   return (
       <>
         <C.Container>
-            <ResumeItem title="Entradas" value="1000"  />
-            <ResumeItem title="Saída" value="1000" />
-            <ResumeItem title="Total" value="1000" />
+            <ResumeItem title="Entradas" value={income}  />
+            <ResumeItem title="Saída" value={expense} />
+            <ResumeItem title="Total" value={total} />
         </C.Container>
       </>
   )
