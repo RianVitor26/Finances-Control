@@ -3,6 +3,8 @@ import GlobalStyle from "./styles/global"
 import Header from './components/Header'
 import Resume from "./components/Resume"
 import Form from "./components/Form"
+import Grid from "./components/Grid"
+
 
 const App = () => {
 
@@ -32,7 +34,6 @@ const App = () => {
         setIcome(`R$ ${income}`)
         setExpense(`R$ ${income}`)
         setTotal(`${Number(income) < Number(expense) ? "-" : ""}R$ ${total}`)
-        
 
     }, [transactionsList])
 
@@ -41,6 +42,7 @@ const App = () => {
             <Header />
             <Resume income={income} expense={expense} total={total} />
             <Form />
+            <Grid />
             <GlobalStyle />
         </>
        

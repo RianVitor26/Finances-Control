@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import * as C from './style'
 const Form = () => {
+ 
     const [desc, setDesc] = useState("")
     const [amount, setAmount] = useState("")
     const [isExpense, setExpense] = useState(false)
@@ -25,11 +26,10 @@ const Form = () => {
               <C.InputContent>
                   <C.Label>Valor</C.Label>
                   <C.Input
-                      value={desc}
+                      value={amount}
                       type="number"
                       onChange={(e) => setAmount(e.target.value)} />
               </C.InputContent>
-
               <C.InputContent>
                   <C.RadioGroup>
                       <C.Input
