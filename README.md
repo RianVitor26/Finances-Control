@@ -5,11 +5,6 @@
 >
 <br>
 
-[Visualizar a página](https://github.com/RianVitor26/FinanceControlSystem-React) 🔍
-
-<br>
-<br>
-
 
 ## Tecnologias usadas 🛠 
 
@@ -43,5 +38,5 @@
 <br>
 <br>
 
-Developed with ❤️ by [RianVitor26](https://github.com/RianVitor26)😊
+Projeto para estudo de React, seguindo o tutor [Will Dev](https://www.youtube.com/watch?v=pj4vA67olbU&list=PLcimT0kSpCYLSA8Reg94kl-B1JYFB_c2M&index=1)
 
